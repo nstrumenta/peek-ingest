@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nstrumenta/nstrumenta/main/module.schema.json",
+  "type": "nodejs",
+  "entry": "node dist/index.js",
+  "prePublishCommand": "npm run build",
+  "exclude": ["node_modules/"]
+}
